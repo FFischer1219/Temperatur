@@ -1,3 +1,10 @@
 Feinstaub
 
-1. sensor_id;sensor_type;location;lat;lon;timestamp;temperature;humidity 
+1. sensor Id;
+   sensor type;
+   location; 
+   lat;
+   lon;
+   timestamp;
+   temperature;
+   humidity 
