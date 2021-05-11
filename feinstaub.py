@@ -1,6 +1,8 @@
 import csv
-csv.list_dialects()
-['excel', 'excel-tab', 'unix']
-reader = csv.reader(open("C:\\Users\\ffisc\\Temperatur\\sensor_3660.csv"), delimeter = ";")
-
-
+file = open('data/data.csv','r')
+csv_data = csv.reader(file, delimiter=";")
+for data in csv_data:
+    print(f'Zeit: {data[5]} Temp: {data[6]}')
+    
+#    for d in data:
+#        print(d)
